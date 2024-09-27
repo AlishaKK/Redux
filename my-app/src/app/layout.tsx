@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import StoreProvider from "./provider";
 
-import CustomProvider from "@/redux/CustomProvider";
+
 
 
 const geistSans = localFont({
@@ -30,9 +31,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >      <CustomProvider> 
-       {children}
-       </CustomProvider>
+      >      <StoreProvider>{children}</StoreProvider>
       </body>
     </html>
   );

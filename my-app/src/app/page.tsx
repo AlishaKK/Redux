@@ -2,6 +2,7 @@
 
 import { useDispatch, useSelector } from "react-redux";
 import { increment, decrement, incrementByAmount } from "@/store/counterSlice";
+import Link from "next/link";
 
 export default function Home() {
   const count = useSelector((state) => state.counter.value);
@@ -30,6 +31,7 @@ export default function Home() {
           Increment by 5
         </button>
       </div>
+      <Link href={"/todo"}>todo</Link>
     </div>
   );
 }

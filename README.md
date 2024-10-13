@@ -1,5 +1,5 @@
-<img width="424" alt="image" src="https://github.com/user-attachments/assets/ec919c71-353c-4e51-a600-e8b1c679fabc">
-Here's a concise overview of Redux and the advantages of using Redux Toolkit:
+
+**Redux Toolkit:**
 
 ### Redux Overview
 
@@ -29,7 +29,7 @@ Here's a concise overview of Redux and the advantages of using Redux Toolkit:
 - **Cleaner Code**: Fosters more readable and maintainable code.
 - **Core Libraries Included**: Comes with built-in configurations and utilities, eliminating the need for multiple packages.
 - **Simplified Reducer Logic**: Streamlines the process of writing reducers with clear and concise functions.
-
+<img width="424" alt="image" src="https://github.com/user-attachments/assets/ec919c71-353c-4e51-a600-e8b1c679fabc">
 ### Getting Started with Redux Toolkit
 
 **Step 1: Install Packages**
